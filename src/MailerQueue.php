@@ -5,14 +5,14 @@
  * Date: 13/07/2018
  * Time: 2:20 PM
  */
-namespace peter\mailerqueue;
+namespace peterliao\mailerqueue;
 
 use Yii;
 
 class MailerQueue extends \yii\swiftmailer\Mailer{
 
     //修改父类指定的messageclass
-    public $messageClass = 'peter\mailerqueue\Message';
+    public $messageClass = 'peterliao\mailerqueue\Message';
 
     //这两个属性时新加的,这里加了之后,在配置文件中才能进行配置
     public $db = '1';

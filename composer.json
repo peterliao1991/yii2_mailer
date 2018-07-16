@@ -1,5 +1,5 @@
 {
-    "name": "peter/mailerqueue",
+    "name": "peterliao/mailerqueue",
     "description": "redis队列邮件发送",
 	"keywords": ["yii2", "redis", "mailer"],
 	"type": "yii2-extension",
@@ -16,6 +16,6 @@
         "yiisoft/yii2-redis": "~2.0.0"
     },
 	"autoload": {
-		"psr-4": { "peter\\mailerqueue\\": "src" }
+		"psr-4": { "peterliao\\mailerqueue\\": "src" }
 	}
 }

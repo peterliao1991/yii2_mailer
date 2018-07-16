@@ -5,7 +5,7 @@
  * Date: 13/07/2018
  * Time: 1:53 PM
  */
-namespace peter\mailerqueue;
+namespace peterliao\mailerqueue;
 use Yii;
 
 class Message extends \yii\swiftmailer\Message{
